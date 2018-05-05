@@ -1,0 +1,290 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: white;
+	height: 2000px;
+}
+header{
+	width: 100%;
+    min-height: 800px;
+    -webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	margin-top: 150px;	
+}
+h2{
+	 font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: lime;
+    margin-top: 100px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 black , -1px -1px 0 black
+}
+h3{
+	font-size: 60px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+.work{
+	width: 100%;
+	height: 100%;
+	max-width: 2000px;
+	max-height: 500px;
+	background: #f5f5f5;
+	margin-top: -50px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}  
+.white{
+	width: 100%;
+	height: 100%;
+	max-width: 2000px;
+	max-height: 500px;
+	background: white;
+	border-bottom: 1px solid gray;
+}
+footer{
+	width: 100%;
+	height: 100%;
+	max-width: 2000px;
+	max-height: 370px;
+	background: #0076c0;
+	
+}
+
+
+.img1{
+	margin-left: -1100px;
+    padding-top: 40px;
+}
+.img2{
+    margin-top: -250px;
+}
+.img3{
+	margin-top: -240px;
+	margin-left: 900px;
+    
+}
+
+
+.button1{
+   font-size: 20px;
+   border-radius: 10px;
+   border-color: lime;
+   width: 200px;
+   height: 50px;
+   margin-top: 150px;
+   margin-left: -170px;
+}
+.button2{
+   font-size: 20px;
+   border-radius: 10px;
+   border-color: lime;
+   width: 250px;
+   height: 50px;
+   margin-top: 200px;
+   margin-left: -190px;
+}
+.button3{
+   font-size: 20px;
+   border-radius: 10px;
+   border-color: lime;
+   width: 250px;
+   height: 50px;
+   margin-top: 180px;
+   margin-left: -190px;
+}
+
+
+
+
+.circle_1{
+	margin-bottom: 100px;
+	margin-left: 200px;
+}
+.circle_2{
+	margin-bottom: 100px;
+}
+.circle_3{
+	margin-bottom: 100px;
+}
+
+
+
+
+.rtr1{
+	padding: 150px;
+	margin-left: 46px;
+}
+.rtr2{
+	padding: 150px;
+	margin-left: 46px;
+}
+.rtr3{
+	padding: 150px;
+	margin-left: 46px;
+}
+
+
+.menu{
+	width: 2000px;
+	height: 47px;
+	background: #0076c0;
+	position: fixed;
+}
+
+.nav li{
+	float: left;
+	list-style-type: none;
+}
+
+
+
+.nav li a{
+	display: block;
+	padding: 0px  15px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	margin-left: 280px;
+    text-decoration: none;
+    height: 20px;
+   text-align: center;
+}
+	.nav li a:hover{
+	background: #515572;
+}
+
+
+.work{
+	
+	-webkit-webkit-transform: translate(-50%, -50%);
+	-moz-webkit-transform: translate(-50%, -50%);
+	-ms-webkit-transform: translate(-50%, -50%);
+	-o-webkit-transform: translate(-50%, -50%);
+	webkit-transform: translate(-50%, -50%);
+    
+}
+
+
+.butt1{
+	border: 3px solid #218294;
+	font-size: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	font-family: Arial, sans-serif;
+	position: relative;
+	margin-top: 150px;
+	width: 300px;
+	left: 600px;
+	background: #218294;
+	font-family: Arial, sans-serif;
+	color: lime;
+} 
+.butt2{
+	border: 3px solid #218294;
+	font-size: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	font-family: Arial, sans-serif;
+	position: relative;
+	margin-top: 150px;
+	width: 300px;
+	left: 150px;
+	bottom: 215px;
+	background: #218294;
+	font-family: Arial, sans-serif;
+	color: lime;
+}  
+
+
+
+
+
+
+.butt3{
+	border: 3px solid #218294;
+	font-size: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	font-family: Arial, sans-serif;
+	position: relative;
+	margin-top: 150px;
+	width: 300px;
+	left: 1020px;
+	bottom: 430px;
+	background: #218294;
+	font-family: Arial, sans-serif;
+	color: lime;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.butt:hover{
+	border: 3px solid #218294;
+	font-size: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	font-family: Arial, sans-serif;
+	position: relative;
+	margin-top: 150px;
+	width: 300px;
+	left: 600px;
+	background: #f5f5f5;
+	font-family: Arial, sans-serif;
+	color: lime;
+}  
+
+
+
+
+
