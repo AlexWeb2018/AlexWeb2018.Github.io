@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
- 
+    
 }
 header{
     min-height: 800px;
@@ -154,4 +154,35 @@ footer{
 
 p{
 	font-size: 30px;
+}
+
+
+
+
+@media screen and (max-width: 615px){
+a{
+	padding: 0 5px;
+	display: inline-block;
+	color: #fff;
+	background-color: #444;
+	line-height: 50px;
+}
+h2{
+	 font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    margin: 0px 10px 0 0;
+}
+}
+
+
+@media screen and (max-width: 276px){
+a{
+	padding: 0 0px;
+	display: inline-block;
+	color: #fff;
+	background-color: #444;
+	line-height: 50px;
+}	
 }
