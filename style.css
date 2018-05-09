@@ -1,9 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
+ 
 }
 header{
-	width: 100%;
     min-height: 800px;
     -webkit-background-size: cover;
 	background-size: cover;
@@ -144,8 +144,10 @@ footer{
 	background: #f5f5f5;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
+	border-top: 1px solid gray;
 	display: block;
 	margin: 0 auto;
+	margin-top: 40px;
 }
 
 
