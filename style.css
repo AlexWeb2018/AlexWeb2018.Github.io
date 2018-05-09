@@ -177,12 +177,3 @@ h2{
 }
 
 
-@media screen and (max-width: 276px){
-a{
-	padding: 0 0px;
-	display: inline-block;
-	color: #fff;
-	background-color: #444;
-	line-height: 50px;
-}	
-}
