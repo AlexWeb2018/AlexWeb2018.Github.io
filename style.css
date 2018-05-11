@@ -32,7 +32,7 @@ a{
 	padding: 0 20px;
 	display: inline-block;
 	color: #fff;
-	background-color: #444;
+	background-color: #0076c0;
 	line-height: 50px;
 }
 a:hover{
@@ -124,7 +124,7 @@ footer{
 #navigacia{
 	margin-top: 138px;
 	height: 200px;
-	background: #444;
+	background: #0076c0;
 }
 
 
@@ -140,7 +140,7 @@ footer{
 
 #tema_1{
 	max-width: 1300px;
-	height: 1060px;
+	height: 700px;
 	background: #f5f5f5;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
