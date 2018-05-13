@@ -82,7 +82,7 @@ img{
 	
 	
 	height: 4000px;
-	background: #fff;
+	background: #f5f5f5;
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 }  
@@ -123,10 +123,12 @@ footer{
 #text_1{
 	font-size: 30px;
 	text-align: center;
+	text-transform: uppercase;
 }
 #text_2{
 	font-size: 30px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 
@@ -136,8 +138,8 @@ footer{
 #tema_1,
 #teoria{
 	max-width: 1150.7px;
-	height: 700px;
-	background: #f5f5f5;
+	height: 1000px;
+	background: #fff;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
 	border-top: 1px solid gray;
