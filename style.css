@@ -82,7 +82,7 @@ img{
 	
 	
 	height: 4000px;
-	background: #f5f5f5;
+	background: #fff;
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 }  
@@ -137,7 +137,7 @@ footer{
 #teoria{
 	max-width: 1150.7px;
 	height: 700px;
-	background: #fff;
+	background: #f5f5f5;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
 	border-top: 1px solid gray;
