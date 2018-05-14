@@ -138,7 +138,7 @@ footer{
 #tema_1,
 #teoria{
 	max-width: 1150.7px;
-	height: 1000px;
+	height: 1700px;
 	background: #fff;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
@@ -159,22 +159,7 @@ p{
 
 
 
-@media screen and (max-width: 615px){
-a{
-	padding: 0 5px;
-	display: inline-block;
-	color: #fff;
-	background-color: #444;
-	line-height: 50px;
-}
-h2{
-	 font-size: 30px;
-    text-align: center;
-    font-weight: 700;
-    color: white;
-    margin: 0px 10px 0 0;
-}
-}
+
 
 
 
