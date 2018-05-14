@@ -7,7 +7,7 @@ header{
     min-height: 800px;
     -webkit-background-size: cover;
 	background-size: cover;
-	background-image: linear-gradient(45deg, #2E3192,  #1BFFFF);
+	background: linear-gradient(45deg, #2E3192,  #1BFFFF);
 }
 nav{
 	background: #444;
