@@ -7,7 +7,7 @@ header{
     min-height: 800px;
     -webkit-background-size: cover;
 	background-size: cover;
-	background: linear-gradient(45deg, #2E3192,  #1BFFFF);
+	background-image: linear-gradient(45deg, #2E3192,  #1BFFFF);
 }
 nav{
 	background: #444;
@@ -95,7 +95,7 @@ img{
 }
 footer{
 	height: 440px;
-	background: linear-gradient(45deg, #2E3192,  #1BFFFF);
+	background: url(img/222.png);
 }
 
 
@@ -138,7 +138,7 @@ footer{
 #tema_1,
 #teoria{
 	max-width: 1150.7px;
-	height: 1700px;
+	height: 1000px;
 	background: #fff;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
@@ -159,7 +159,22 @@ p{
 
 
 
-
+@media screen and (max-width: 615px){
+a{
+	padding: 0 5px;
+	display: inline-block;
+	color: #fff;
+	background-color: #444;
+	line-height: 50px;
+}
+h2{
+	 font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    margin: 0px 10px 0 0;
+}
+}
 
 
 
