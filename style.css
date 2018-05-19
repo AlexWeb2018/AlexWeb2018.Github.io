@@ -1,13 +1,14 @@
 body {
 	margin: 0;
 	padding: 0;
-    min-width: 400px;
+    min-width: 600px;
+    overflow-x: hidden;
 }
 header{
-    min-height: 800px;
+    min-height: 700px;
     -webkit-background-size: cover;
 	background-size: cover;
-	background: linear-gradient(45deg, #2E3192,  #1BFFFF);
+	background: url(img/1429248.jpg)
 }
 nav{
 	background: #444;
@@ -136,16 +137,17 @@ footer{
 
 
 #tema_1,
-#teoria{
+#tri{
 	max-width: 1150.7px;
-	height: 1000px;
+	height: 1300px;
 	background: #fff;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 	display: block;
-	margin-left: 40px;
+	margin: 0 auto;
+
 	margin-top: 40px;
 }
 
@@ -164,17 +166,95 @@ a{
 	padding: 0 5px;
 	display: inline-block;
 	color: #fff;
-	
+	background-color: #444;
 	line-height: 50px;
 }
 h2{
-	 font-size: 30px;
+	 font-size: 25px;
     text-align: center;
     font-weight: 700;
     color: white;
     margin: 0px 10px 0 0;
 }
 }
+#trigonometria{
+	max-width: 500px;
+}
+#content{
+	width:600px;
+	margin:50px auto 0px;
+	font-size:22px;
+}
+/*** Выдвигающееся боковое меню | JavaScript ***/
 
+#menu {
+	position: fixed;
+	left: -262px;
+	width: 250px;
+	height: 100%;
+	top: 0;
+}
 
+#menu.menu-open {
+	left: -60px;
+}
+#menuToggle{
+	margin-left: 275px;
+}
 
+#menuContent {
+	position: absolute;
+	left: 60px;
+	background: #2b271a;
+	width: 200px;
+	height: 100%;
+}
+
+#menu a {
+	margin-left: 40px;
+	color: #00ffff;
+	display: block;
+	font-size: 20px;
+	line-height: 40px;
+	text-decoration:none;
+}
+
+#menu a:hover {
+	color: #00ff40;
+}
+
+#menu {
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		 -o-transition: all .3s ease;
+			transition: all .3s ease;
+}
+
+#menuToggle {
+	position: absolute;
+	top: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	background: rgba(0,0,0,0.45);
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+#menuToggle:hover {
+	color: #00ff40;
+	background: rgba(0,0,0,0.2);
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
