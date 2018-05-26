@@ -14,8 +14,6 @@ header{
 }
 
 
-
-
 a{
 	padding: 0 20px;
 	display: inline-block;
@@ -173,20 +171,8 @@ p{
 
 
 
-@media screen and (max-width: 615px){
-a{
-	padding: 0 5px;
-	display: inline-block;
-	line-height: 50px;
-}
-h2{
-	 font-size: 25px;
-    text-align: center;
-    font-weight: 700;
-    color: white;
-    margin: 0px 10px 0 0;
-}
-}
+
+
 #trigonometria{
 	width: 100%;
 	max-width: 500px;
@@ -199,6 +185,10 @@ h2{
 	width: 100%;
 	max-width: 500px;
 }
+
+
+
+
 /*стилизуем менюшку*/
 .hidden-menu {
 display: block;
@@ -207,11 +197,11 @@ list-style:none;
 padding: 10px;
 margin: 0;
 box-sizing: border-box;
-width: 180px;
+width: 300px;
 background-color: #2b343c;
 height: 100%;
 top: 0;
-left: -200px;
+left: -500px;
 transition: left .2s;
 z-index: 2;
 -webkit-transform: translateZ(0);
@@ -251,7 +241,7 @@ margin-top: 0;
 }
 /*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
 .hidden-menu-ticker:checked ~ .btn-menu {
-left: 160px;
+left: 271.1px;
 background-color: #2b343c;
 }
 /*и дальше стили меняющие бургер, двигающие менюшку по событию - нажатие на значек бургера*/
@@ -271,3 +261,4 @@ opacity: 0;
 top: -7px;
 background-color: #fff;
 }
+
