@@ -10,7 +10,7 @@ header{
     min-height: 600px;
     -webkit-background-size: cover;
 	background-size: cover;
-	background-image: url(img/image1.jpg);
+	background-image: url(img/138211.jpg);
 }
 
 
@@ -18,7 +18,7 @@ a{
 	padding: 0 20px;
 	display: inline-block;
 	color: #fff;
-	background-color: #2f3136;
+	
 	line-height: 50px;
 }
 a:hover{
@@ -112,6 +112,7 @@ footer{
 	margin-top: 78px;
 	height: 200px;
 	background: #2f3136;
+	display: none;
 }
 
 
@@ -230,7 +231,7 @@ width: 20px;
 .btn-menu span {
 display: block;
 height: 2px;
-background-color: #fff;
+background-color: #0076c0;
 margin: 5px 0 0;
 transition: all .1s linear .23s;
 position: relative;
