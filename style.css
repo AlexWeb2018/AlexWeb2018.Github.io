@@ -218,8 +218,8 @@ display: none;
 .btn-menu {
 padding: 2px;
 position: fixed;
-top: 5px;
-left: 5px;
+top: 12px;
+left: 10px;
 cursor: pointer;
 transition: left .23s;
 z-index: 3;
@@ -231,7 +231,7 @@ width: 20px;
 .btn-menu span {
 display: block;
 height: 2px;
-background-color: #0076c0;
+background-color: #fff;
 margin: 5px 0 0;
 transition: all .1s linear .23s;
 position: relative;
@@ -262,4 +262,12 @@ opacity: 0;
 top: -7px;
 background-color: #fff;
 }
-
+.menushka{
+	width: 40px;
+	height: 40px;
+	background: #444;
+	position: fixed;
+	border-radius: 30px;
+	left: 3px;
+	top: 3px;
+}
