@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Хранилище ЕГЭ</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shurtcut icon" type="x-icon" href="img/calculator.png">
+	<link rel="shurtcut icon" type="x-icon" href="img/333.png">
 	<link rel="stylesheet" type="text/css" href="animate.css">
 	<meta name="viewport" content="user-scaladle=yes, width=device-width, initial-scale=1.0, maximum-scale=1.0">
    <script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
@@ -27,7 +27,8 @@
 
 
 
-<div class="menushka">
+<div class="menu_dark">
+<img id="treu" src="img/333.png">
 	   <!-- input нужен для того, что бы в дальнейшем задать стили иконке ☰ по событию checked, то есть когда меню будем открыать и закрыать -->
 <input type="checkbox" id="hmt" class="hidden-menu-ticker">
 <!-- Далее вёрстка самой иконки. Разделена на спаны, что бы красиво превращать в крестик при открытии (почти как в Телеграме :) -->
@@ -40,7 +41,7 @@
 <ul class="hidden-menu">
 <li><a href="#tema_1">Наименьшее  значение функции</a></li>
 <li><a href="#tri">Тригонометрия</a></li>
-<li><a href="#">Наверх</a></li>
+<li><a href="#header">Наверх</a></li>
 </ul>
 <!-- А затем уже контент странички. В примере просто зашголовок, что бы было видно, как менюшка нахлёстом выдвигается -->
 </div>
@@ -48,7 +49,7 @@
 
 
 
-<header class="row" data-parallax="scroll">	
+<header class="row" data-parallax="scroll" id="header">	
 	<br>
     <br>
     <br>
@@ -131,11 +132,19 @@
 	
 </footer>
     
-	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script>
 	new WOW().init();
 
 </script>	
-	
+	<script type="text/javascript">
+$(function(){
+        $("a[href^='#']").click(function(){
+                var _href = $(this).attr("href");
+                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                return false;
+        });
+});
+</script>
 </body>
 </html>
