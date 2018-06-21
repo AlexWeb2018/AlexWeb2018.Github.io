@@ -1,150 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN' 'http://www.w3.org/TR/html4/loose.dtd'>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Хранилище ЕГЭ</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shurtcut icon" type="x-icon" href="img/333.png">
-	<link rel="stylesheet" type="text/css" href="animate.css">
-	<meta name="viewport" content="user-scaladle=yes, width=device-width, initial-scale=1.0, maximum-scale=1.0">
-   <script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
-   <script src="wow.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
-
-
-
-
-
-	
-	
+<meta http-equiv='Content-Type' content='text/html; charset=utf8'>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script src="jquery.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
 </head>
 <body>
+          
 	
-	
-	
+			<div class="wrap">
+		
+			<center>
+				<img class="bot" src="img/bot.png">
+				<br>
+				<br>
 
 
 
-
-
-<div class="menu_dark">
-<img id="treu" src="img/333.png">
-	   <!-- input нужен для того, что бы в дальнейшем задать стили иконке ☰ по событию checked, то есть когда меню будем открыать и закрыать -->
-<input type="checkbox" id="hmt" class="hidden-menu-ticker">
-<!-- Далее вёрстка самой иконки. Разделена на спаны, что бы красиво превращать в крестик при открытии (почти как в Телеграме :) -->
-<label class="btn-menu" for="hmt">
-<span class="first"></span>
-<span class="second"></span>
-<span class="third"></span>
-</label>
-<!-- Менюшка раскрывающаяся и скрывающаяся -->
-<ul class="hidden-menu">
-<li><a href="#tema_1">Наименьшее  значение функции</a></li>
-<li><a href="#tri">Тригонометрия</a></li>
-<li><a href="#header">Наверх</a></li>
-</ul>
-<!-- А затем уже контент странички. В примере просто зашголовок, что бы было видно, как менюшка нахлёстом выдвигается -->
-</div>
+				<input autofocus placeholder="Есть вопросы?" id="text">
 
 
 
-
-<header class="row" data-parallax="scroll" id="header">	
-	<br>
-    <br>
-    <br>
-    <br>
-	<h2>хранилище ЕГЭ</h2>
-</header>
+				<input style="cursor:pointer;" type="submit" id="send">
+				
 
 
-<div class="work">
-	<h3 class="h3">Темы</h3>	
-	<section id="navigacia">
-		<ul id="rar">
-			<li id="rer">
-				<a id="rrr" href="#tema_1">Наименьшее  значение функции</a>
-				<a id="rrr" href="#tri">тригонометрия</a>
-			</li>
-		</ul>
-	</section>
-	<section id="tema_1">
-		<p id="text_1">Наименьшее значение функции</p>
-		<p>Алгоритм нахождения наибольшего и наименьшего значения непрерывной функции на отрезке [a;b].
+				<result style="color: #444"></result>
+			</center>
+			
+		</div>
+		
+		<script>
+			
+				var audio =new Audio();
+				audio.src = 'bb-8.mp3';
+				audio.autoplay = true;
+			
+		</script>
+		
 
-<br>
-<br>
-<br>
-<br>
-<br>
-1)Находим область определения функции
-<br>
-<br>
-2)Находим производную функции 
-<br>
-<br> 
-3)найденный точки указать на координатной прямой
-<br>
-<br>
-<br>
-<br>
-Из полученных значений функции выбираем наибольшее и наименьшее - они и будут искомыми наибольшим и наименьшим значениями функции соответственно.</p>
-	</section>
-<section id="tri">
-	<p id="text_2">тригонометрия</p>
-	<img id="trigonometria" src="img/Безымянный.png">
-	<img id="trig1" src="img/Безымянный1.png">
-	<img id="trig2" src="img/Безымянный2.png">
-</section>
-
-
-</div>
-
-
-
-
-
-   
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer>
-	
-</footer>
-    
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script>
-	new WOW().init();
-
-</script>	
-	<script type="text/javascript">
-$(function(){
-        $("a[href^='#']").click(function(){
-                var _href = $(this).attr("href");
-                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
-                return false;
-        });
-});
-</script>
+		
+			
 </body>
 </html>
