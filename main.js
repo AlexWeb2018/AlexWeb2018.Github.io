@@ -3,8 +3,9 @@ $(document).ready(function (){
 //Массив ответов
 var answers = {
     'привет': 'И тебе привет!',
-    'сколько тебе лет': '21',
-    'кто ты': 'Я Робот!',
+    'сколько тебе лет': 'больше чем твоей мамке',
+    'кто ты': 'твой хозяин',
+    'как создать сайт': '<a href="http://sergey-oganesyan.ru/seo-knigi/kak-sozdat-sajt-na-wordpress.html">Читай эту статью!</a>',
     'как дела': 'У меня отлично! А у тебя я даже спрашивать не буду!',
     'как тебя зовут': 'Konnor version 0.0.0.15.3',
     'кто тебя создал': 'создатель',
@@ -14,7 +15,7 @@ var answers = {
 //Флаг того, что найден ответ на вопрос
 var have_answer = false; 
  
-$('#send').on("submit", function(){
+$('#send').click(function(){
      
     var text = $('#text').val();
      
@@ -36,6 +37,3 @@ $('#send').on("submit", function(){
  
 });
 });
-
-
-
