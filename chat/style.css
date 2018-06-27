@@ -1,0 +1,40 @@
+.bot{
+	width: 80%;
+	
+}
+	.wrap{
+    width: 350px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+	border-radius: 10px;
+	}
+	
+body{
+	background: #333;
+	}
+
+.chat{
+	margin-bottom: 60px;
+	margin-top: 120px;
+	width: 300px;
+	height: 230px;
+	overflow: auto;
+	background: #f5f5f5;
+	border: 1px solid gray; 
+	border-radius: 10px;
+}
+#ball{
+	max-width: 30px;
+	height: 30px;
+	background: lime;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50px;
+	margin-bottom: -50px;
+	position: relative;
+	margin-top: -110px;
+}
+.center{
+	max-width: 200px;
+}

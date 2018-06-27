@@ -1,0 +1,44 @@
+
+body{
+    background: #333;
+}
+
+
+
+.result{
+    font-size: 20px;
+    text-align: center;
+}
+
+.head_fon{
+    padding-top: 1px;
+    display: block;
+    margin: 0 auto;
+    background: #0076c0;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+
+}
+
+.block{
+    background: #fff;
+}
+
+
+.krestiki_noliki{
+    width: 306px;
+    margin-top: 5px;
+    margin: 0 auto;
+    background: #fff;
+}
+.krestiki_noliki .block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-size: 100px;
+    line-height: 94px;
+}

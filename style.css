@@ -1,14 +1,47 @@
-.bot{
-	width: 80%;
-}
-	.wrap{
-    width: 350px;
-    margin: 30px auto;
-    background: #fff;
-    padding: 20px;
-	border-radius: 10px;
-	}
-	
 body{
-	background: #333;
-	}
+	background: #222;
+}
+.bal{
+	display: block;
+	margin: 0 auto;
+	background: #111;
+	width: 400px;
+	height: 400px;
+	margin-top: 150px;
+	border-radius: 	200px;
+}
+.center{
+	max-width: 250px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 39.5px;
+}
+#ball{
+	max-width: 50px;
+	height: 50px;
+	background: lime;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50px;
+	margin-top: -150px;
+	position: relative;
+}
+.chat{
+	max-width: 50px;
+	margin: 0 auto;
+	display: block;
+	margin-top: -430px;
+	background: white;
+	border-radius: 15px;
+	padding: 5px;
+}
+.tic{
+	position: absolute;
+	max-width: 50px;
+	display: block;
+	background: white;
+	border-radius: 15px;
+	padding: 5px;
+    margin-top: 50px;
+    margin-left: 550px;
+}
